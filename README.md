@@ -1,4 +1,4 @@
-# 🚀 Algorithms and Data Structures Practice
+# Algorithms and Data Structures Practice
 
 This repository contains the algorithm problems I have solved on LeetCode.
 I write clear comments and explain my solutions as simply as possible.
@@ -27,15 +27,10 @@ Each difficulty folder contains:
 - [🔴 Hard](./Hard/) (Coming Soon…)
 
 
-## 🔥 Notes
+## Notes
 - This repository is for practicing algorithms, improving problem-solving skills, and strengthening knowledge of data structures.
 - Solutions are written in **Python** with clear and simple comments.
 - Contributions, suggestions, and discussions are always welcome.
-
----
-
-## 🏁 License
-This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
 
 ---
 
