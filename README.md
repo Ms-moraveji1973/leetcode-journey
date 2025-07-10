@@ -20,22 +20,20 @@ Each difficulty folder contains:
 
 ---
 
-- [🟢 Easy](./Easy/) (Coming Soon…)
-- [🟧 Medium](./Medium/)
-  - [Zigzag Conversion](./Medium/Zigzag_Conversion/README.md)
-  - Other topics — Coming soon...
-- [🔴 Hard](./Hard/) (Coming Soon…)
+- [ Easy](./Easy/)
+- [ Medium](./Medium/)
+  - [Zigzag Conversion](./Medium/zigzag_conversion/README.md)
+  - [longest substring without repeating characters](./Medium/longest-substring-without-repeating-characters/README.md)
+  - [Longest Palindromic Substring](./Medium/Longest-Palindromic-Substring/README.md)
 
 
-## 🔥 Notes
+- [ Hard](./Hard/)
+
+
+##  Notes
 - This repository is for practicing algorithms, improving problem-solving skills, and strengthening knowledge of data structures.
 - Solutions are written in **Python** with clear and simple comments.
 - Contributions, suggestions, and discussions are always welcome.
-
----
-
-## 🏁 License
-This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
 
 ---
 
