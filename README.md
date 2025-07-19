@@ -21,10 +21,11 @@ Each difficulty folder contains:
 ---
 
 - [ Easy](./Easy/)
+  - [ Climbing Stairs](./Easy/climing-stairs/README.md)
 - [ Medium](./Medium/)
-  - [Zigzag Conversion](./Medium/zigzag_conversion/README.md)
-  - [longest substring without repeating characters](./Medium/longest-substring-without-repeating-characters/README.md)
-  - [Longest Palindromic Substring](./Medium/Longest-Palindromic-Substring/README.md)
+  - [ Zigzag Conversion](./Medium/zigzag_conversion/README.md)
+  - [ longest substring without repeating characters](./Medium/longest-substring-without-repeating-characters/README.md)
+  - [ Longest Palindromic Substring](./Medium/Longest-Palindromic-Substring/README.md)
 
 
 - [ Hard](./Hard/)
