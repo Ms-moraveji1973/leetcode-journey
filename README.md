@@ -26,6 +26,8 @@ Each difficulty folder contains:
   - [ Zigzag Conversion](./Medium/zigzag_conversion/README.md)
   - [ longest substring without repeating characters](./Medium/longest-substring-without-repeating-characters/README.md)
   - [ Longest Palindromic Substring](./Medium/Longest-Palindromic-Substring/README.md)
+  - [ String to Integer(atoi)](./Medium/String-to-Integer(atoi)/solution.py)
+
 
 
 - [ Hard](./Hard/)
