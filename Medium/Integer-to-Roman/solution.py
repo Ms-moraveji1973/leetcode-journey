@@ -10,26 +10,26 @@ M:1000
 
 '''
 
-def integer_to_roman(number:int):
-    digits = {}
-    number_str = str(number)
+def integer_to_roman(num:int):
+    place_values = {}
+    number_str = str(num)
     count = 1
     result = []
     for i in range(len(number_str)-1,-1,-1):
         number_digits = number_str[i]
-        digits[count] = int(number_digits) * count
+        place_values[count] = int(number_digits) * count
         count *= 10
-    print('digits',digits)
+    print('place_values',place_values)
 
-    if 1000 in digits.keys():
-        number_1 = digits[1000]
+    if 1000 in place_values.keys():
+        number_1 = place_values[1000]
         if number_1 >= 1000 and number_1 <= 3000 :
             count_of_roman_1 = number_1 // 1000
             result.append('M' * count_of_roman_1)
 
 
-    if 100 in digits.keys():
-        number_2 = digits[100]
+    if 100 in place_values.keys():
+        number_2 = place_values[100]
         if number_2 >= 100 and number_2 <= 900 :
             if number_2 == 400 :
                 result.append('C')
@@ -48,8 +48,8 @@ def integer_to_roman(number:int):
                     result.append('C'*count_of_roman_2)
 
 
-    if 10 in digits.keys():
-        number_3 = digits[10]
+    if 10 in place_values.keys():
+        number_3 = place_values[10]
         if number_3 >= 10 and number_3 <= 90 :
             if number_3 == 40 :
                 result.append('X')
@@ -69,8 +69,8 @@ def integer_to_roman(number:int):
                     print(count_of_roman_3)
                     result.append('X'*count_of_roman_3)
 
-    if 1 in digits.keys():
-        number_4 = digits[1]
+    if 1 in place_values.keys():
+        number_4 = place_values[1]
         if number_4 >= 1 and number_4 <= 9 :
 
             if number_4 == 4 :
