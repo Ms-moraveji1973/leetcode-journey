@@ -27,6 +27,8 @@ Each difficulty folder contains:
   - [ longest substring without repeating characters](./Medium/longest-substring-without-repeating-characters/README.md)
   - [ Longest Palindromic Substring](./Medium/Longest-Palindromic-Substring/README.md)
   - [ String to Integer(atoi)](./Medium/String-to-Integer(atoi)/solution.py)
+  -  [ Container with most water ](./Medium//container-with-most-water/solution.py)
+
 
 
 
